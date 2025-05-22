@@ -1,1 +1,271 @@
-<!DOCTYPE html><html><head><meta charSet="utf-8" data-next-head=""/><meta name="viewport" content="width=device-width" data-next-head=""/><noscript data-n-css=""></noscript><script defer="" noModule="" src="/_next/static/chunks/polyfills-42372ed130431b0a.js"></script><script src="/_next/static/chunks/webpack-36c020534c540695.js" defer=""></script><script src="/_next/static/chunks/767-16a6107f24247a8c.js" defer=""></script><script src="/_next/static/chunks/981-bb11b984df3670ad.js" defer=""></script><script src="/_next/static/chunks/229-f0dc153a6e49f7d7.js" defer=""></script><script src="/_next/static/chunks/279-eed1e4afffbaa2d5.js" defer=""></script><script src="/_next/static/chunks/main-71be3b1704f1ed80.js" defer=""></script><script src="/_next/static/chunks/pages/_app-0b8922d2c240d799.js" defer=""></script><script src="/_next/static/chunks/pages/index-a306791742116341.js" defer=""></script><script src="/_next/static/d-1yjQOxdXbhuN6ZxPJOX/_buildManifest.js" defer=""></script><script src="/_next/static/d-1yjQOxdXbhuN6ZxPJOX/_ssgManifest.js" defer=""></script></head><body><div id="__next"><div class="container mx-auto px-4 py-8"><h1 class="text-4xl font-bold text-center mb-8">欢迎来到 Crealize</h1><p class="text-lg text-center text-gray-600">创新科技解决方案</p></div></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{}},"page":"/","query":{},"buildId":"d-1yjQOxdXbhuN6ZxPJOX","nextExport":true,"autoExport":true,"isFallback":false,"scriptLoader":[]}</script></body></html>
+<!DOCTYPE html><html><head><meta charSet="utf-8" data-next-head=""/><meta name="viewport" content="width=device-width" data-next-head=""/><noscript data-n-css=""></noscript><script defer="" noModule="" src="/_next/static/chunks/polyfills-42372ed130431b0a.js"></script><script src="/_next/static/chunks/webpack-d8e476b96001bd02.js" defer=""></script><script src="/_next/static/chunks/238-160f90314d092db7.js" defer=""></script><script src="/_next/static/chunks/679-88a01db9e877f525.js" defer=""></script><script src="/_next/static/chunks/229-dab4235dd23b7dd5.js" defer=""></script><script src="/_next/static/chunks/279-1083332358a8faf7.js" defer=""></script><script src="/_next/static/chunks/main-1000fcdbd2097d52.js" defer=""></script><script src="/_next/static/chunks/pages/_app-9abff757eec02b3d.js" defer=""></script><script src="/_next/static/chunks/171-3c7f6595f28b12c1.js" defer=""></script><script src="/_next/static/chunks/255-9868d2e8012da77c.js" defer=""></script><script src="/_next/static/chunks/234-d8ff332b1c1dcf68.js" defer=""></script><script src="/_next/static/chunks/927-16dbe6d76048abc2.js" defer=""></script><script src="/_next/static/chunks/693-fe19fd7b158a7fb3.js" defer=""></script><script src="/_next/static/chunks/519-5c9de49eefa24b2e.js" defer=""></script><script src="/_next/static/chunks/24-eadc320fa050b34a.js" defer=""></script><script src="/_next/static/chunks/790-6d10b0e385af0753.js" defer=""></script><script src="/_next/static/chunks/36-38064b48eb8fd4b0.js" defer=""></script><script src="/_next/static/chunks/pages/index-7b04a4c96dfdbe10.js" defer=""></script><script src="/_next/static/J-55_imQriAWEJoPqE-Ez/_buildManifest.js" defer=""></script><script src="/_next/static/J-55_imQriAWEJoPqE-Ez/_ssgManifest.js" defer=""></script></head><body><div id="__next"><div class="bg-gradient-to-b from-white to-blue-50 min-h-screen flex flex-col"><nav class="fixed top-0 left-0 w-full z-50 bg-white/80 backdrop-blur border-b border-gray-100 shadow-sm"><div class="container mx-auto flex items-center justify-between px-4 py-2"><span class="font-bold text-xl tracking-widest text-blue-700">Crealize</span><div class="space-x-4"><a href="#home" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">首页</a><a href="#vision" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">使命与愿景</a><a href="#projects" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">创新项目</a><a href="#tech" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">技术理念</a><a href="#join" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">加入我们</a><a href="#contact" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">联系我们</a></div></div></nav><div class="h-16"></div> <main class="flex-1"><section id="home" class="max-w-3xl mx-auto px-4 py-16" style="opacity:0;transform:translateY(59.8131342283195px) scale(0.8581457488193805)"><div class="prose prose-lg max-w-none"><h1>网站内容规划</h1>
+<h2>网站结构</h2>
+<p>本项目采用单页面应用（SPA）架构，通过滚动和导航实现页面切换。</p>
+<h3>目录结构</h3>
+<pre><code>src/
+├── app/                    # 应用入口
+│   ├── [locale]/          # 国际化路由
+│   │   └── page.tsx       # 单页面应用主入口
+│   └── layout.tsx         # 布局组件
+├── components/            # 组件目录
+│   ├── sections/         # 页面各部分组件
+│   │   ├── Home.tsx      # 首页部分
+│   │   ├── Vision.tsx    # 使命与愿景部分
+│   │   ├── Projects.tsx  # 创新项目部分
+│   │   ├── Tech.tsx      # 技术理念部分
+│   │   ├── Join.tsx      # 加入我们部分
+│   │   └── Contact.tsx   # 联系我们部分
+│   ├── layout/           # 布局组件
+│   │   ├── Header.tsx    # 顶部导航
+│   │   └── Footer.tsx    # 底部信息
+│   └── ui/               # UI组件
+├── lib/                  # 工具函数
+│   ├── twitter/          # Twitter API集成
+│   ├── i18n/            # 国际化配置
+│   └── google/          # Google Apps Script集成
+├── styles/              # 样式文件
+│   ├── globals.css      # 全局样式
+│   └── animations.css   # 动画样式
+└── types/               # 类型定义
+</code></pre>
+<h3>页面组成</h3>
+<ol>
+<li>首页 (Home)</li>
+<li>使命与愿景 (Vision)</li>
+<li>创新项目 (Projects)</li>
+<li>技术理念 (Tech Philosophy)</li>
+<li>加入我们 (Join Us)</li>
+<li>联系我们 (Contact)</li>
+</ol>
+<h3>导航结构</h3>
+<ul>
+<li>顶部固定导航栏</li>
+<li>滚动到对应部分</li>
+<li>平滑滚动效果</li>
+<li>当前部分高亮显示</li>
+</ul>
+<h3>URL结构</h3>
+<pre><code>/                    # 首页
+/#vision            # 使命与愿景
+/#projects          # 创新项目
+/#tech              # 技术理念
+/#join              # 加入我们
+/#contact           # 联系我们
+
+/ja/                # 日语版本
+/ja/#vision        # 日语版本-使命与愿景
+/en/                # 英语版本
+/en/#vision        # 英语版本-使命与愿景
+</code></pre>
+<h3>技术实现</h3>
+<ul>
+<li>前端框架：Next.js 14</li>
+<li>开发语言：TypeScript</li>
+<li>样式方案：Tailwind CSS</li>
+<li>动画系统：Framer Motion</li>
+<li>部署平台：GitHub Pages</li>
+<li>国际化：Google Apps Script + next-intl</li>
+<li>表单处理：React Hook Form</li>
+<li>图片优化：Next.js Image</li>
+<li>Twitter集成：Twitter API v2</li>
+<li>自动化部署：GitHub Actions</li>
+</ul>
+<h3>动画实现</h3>
+<ul>
+<li>页面切换动画：使用Framer Motion的AnimatePresence</li>
+<li>滚动动画：使用Framer Motion的useScroll和useTransform</li>
+<li>悬停效果：使用Tailwind CSS的transition</li>
+<li>加载动画：使用Framer Motion的motion组件</li>
+</ul>
+<h3>性能优化</h3>
+<ul>
+<li>组件懒加载</li>
+<li>图片优化</li>
+<li>动画性能优化</li>
+<li>预加载关键资源</li>
+<li>静态生成(SSG)</li>
+<li>增量静态再生成(ISR)</li>
+<li>资源预加载</li>
+<li>代码分割</li>
+</ul>
+<h2>详细内容</h2>
+<h3>1. 首页 (Home)</h3>
+<h4>主标题</h4>
+<ul>
+<li>Crealize</li>
+<li>Transforming Imagination into Reality</li>
+</ul>
+<h4>副标题</h4>
+<ul>
+<li>以 Web3 × 游戏化 × AI 技术，重新定义创意落地的可能性。</li>
+<li>我们不只是构想未来，我们正在打造它。</li>
+</ul>
+<h3>2. 使命与愿景 (Vision)</h3>
+<h4>核心信息</h4>
+<ul>
+<li>把创意转化为现实</li>
+<li>Crealize 是由 &quot;Creative&quot; × &quot;Realize&quot; 所组成的名字</li>
+</ul>
+<h4>核心理念</h4>
+<ul>
+<li>「创意若不被实现，只是空谈。」</li>
+<li>擅长将点子从 0 执行至 1</li>
+<li>经过验证、反复打磨，最终变为可触及的数字产品</li>
+</ul>
+<h4>技术融合</h4>
+<ul>
+<li>Web3</li>
+<li>游戏化</li>
+<li>AI</li>
+<li>价值网络</li>
+</ul>
+<h3>3. 创新项目 (Projects)</h3>
+<h4>艺术品交易平台</h4>
+<ul>
+<li>智能合约与第三方 KYC 确保信赖</li>
+<li>用赞与关注决定市场价格</li>
+<li>评价系统透明开放，由社群共同参与</li>
+</ul>
+<h4>偶像与创作者股交易平台</h4>
+<ul>
+<li>投票即是支持，影响「市值」</li>
+<li>交易活动回馈手续费予偶像</li>
+<li>正在新加坡进行合规审查</li>
+</ul>
+<h4>MARS2049：火星殖民 × GameFi</h4>
+<ul>
+<li>Build-to-Earn 机制 × 区块链资产</li>
+<li>Telegram Mini App 全球封测中</li>
+<li>未来支持 NFT 与多链互通</li>
+</ul>
+<h4>AI 虚拟影响者</h4>
+<ul>
+<li>与 x.com API 整合，撷取趋势新闻</li>
+<li>自动生成评论建议</li>
+<li>将可作为企业代言人或社群操盘角色</li>
+</ul>
+<h3>4. 技术理念 (Tech Philosophy)</h3>
+<h4>设计理念</h4>
+<ul>
+<li>去中心化 × 前端驱动</li>
+<li>低维运、高稳定、可扩展</li>
+</ul>
+<h4>实践方式</h4>
+<ul>
+<li>静态前端部署实现零服务器、零维护费</li>
+<li>区块链整合，实现去中心化身份验证与资产管理</li>
+<li>AI 多语翻译系统：使用 Google Apps Script 搭配 GPT</li>
+<li>低成本、高自由的开发模型</li>
+</ul>
+<h3>5. 加入我们 (Join Us)</h3>
+<h4>工作环境</h4>
+<ul>
+<li>全球招募中，支持全远程工作</li>
+<li>总部设于东京</li>
+<li>完全自由的工作环境，专注成果，不看打卡</li>
+</ul>
+<h4>人才需求</h4>
+<ul>
+<li>工程师</li>
+<li>设计师</li>
+<li>PM</li>
+<li>创意人</li>
+<li>游戏制作人</li>
+<li>法务</li>
+<li>Web3 领域专才</li>
+</ul>
+<h3>6. 联系我们 (Contact)</h3>
+<h4>公司信息</h4>
+<ul>
+<li>名称：Crealize合同会社（Crealize LLC）</li>
+<li>成立时间：2024年10月9日</li>
+<li>创办人：Yves CHEN</li>
+<li>银行：瑞穗银行（Mizuho Bank）</li>
+</ul>
+<h4>地址信息</h4>
+<ul>
+<li>地址：东京都涩谷区东1丁目2-9-3</li>
+<li>Shibuya Bridge B-5（Shibuya Startup Support 提供）</li>
+</ul>
+<h4>工作地点</h4>
+<ul>
+<li>东京 + 全球远程团队</li>
+<li>台湾、新加坡、杜拜、伦敦</li>
+</ul>
+<h4>联系方式</h4>
+<ul>
+<li>网站底部表单</li>
+<li>商业合作</li>
+<li>媒体访问</li>
+<li>技术咨询</li>
+<li>加入团队</li>
+</ul>
+<h2>技术实现要点</h2>
+<h3>1. 多语言支持</h3>
+<ul>
+<li>支持语言：日语/英语</li>
+<li>实现方式：Google Apps Script + next-intl</li>
+<li>URL结构：<code>/[locale]/#section</code></li>
+<li>切换方式：顶部导航栏语言切换</li>
+<li>内容管理：Google表单收集翻译内容</li>
+<li>自动更新：定时触发Apps Script更新</li>
+</ul>
+<h3>2. 响应式设计</h3>
+<ul>
+<li>使用Tailwind CSS实现</li>
+<li>断点设计：<!-- -->
+<ul>
+<li>移动端：&lt; 640px</li>
+<li>平板：640px - 1024px</li>
+<li>桌面：&gt; 1024px</li>
+</ul>
+</li>
+<li>布局适配：<!-- -->
+<ul>
+<li>移动端：单列布局</li>
+<li>平板：双列布局</li>
+<li>桌面：多列布局</li>
+</ul>
+</li>
+</ul>
+<h3>3. 动画效果</h3>
+<ul>
+<li>页面切换：Framer Motion AnimatePresence</li>
+<li>滚动动画：Framer Motion useScroll</li>
+<li>悬停效果：Tailwind CSS transition</li>
+<li>加载动画：Framer Motion motion组件</li>
+</ul>
+<h3>4. 表单处理</h3>
+<ul>
+<li>使用React Hook Form</li>
+<li>表单验证</li>
+<li>错误提示</li>
+<li>提交状态管理</li>
+<li>自动翻译</li>
+</ul>
+<h3>5. Twitter集成</h3>
+<ul>
+<li>Twitter API v2</li>
+<li>推文列表展示</li>
+<li>推文交互</li>
+<li>推文搜索</li>
+<li>推文缓存</li>
+<li>定时更新</li>
+</ul>
+<h3>6. 图片优化</h3>
+<ul>
+<li>Next.js Image组件</li>
+<li>自动格式转换</li>
+<li>响应式图片</li>
+<li>懒加载</li>
+<li>占位图</li>
+</ul>
+<h3>7. SEO优化</h3>
+<ul>
+<li>静态生成(SSG)</li>
+<li>增量静态再生成(ISR)</li>
+<li>Meta标签优化</li>
+<li>结构化数据</li>
+<li>多语言SEO</li>
+<li>性能优化</li>
+</ul></div></section><section id="vision" class="max-w-3xl mx-auto px-4 py-16" style="opacity:0;transform:translateY(44.34750314464084px) scale(0.9412514856328098)"><div class="prose prose-lg max-w-none"></div></section><section id="projects" class="max-w-3xl mx-auto px-4 py-16" style="opacity:0;transform:translateY(56.17252149221807px) scale(0.8809592052083212)"><div class="prose prose-lg max-w-none"></div></section><section id="tech" class="max-w-3xl mx-auto px-4 py-16" style="opacity:0;transform:translateY(9.800837054108115px) scale(0.9405350680743851)"><div class="prose prose-lg max-w-none"></div></section><section id="join" class="max-w-3xl mx-auto px-4 py-16" style="opacity:0;transform:translateY(5.040120038730905px) scale(0.9153235118227101)"><div class="prose prose-lg max-w-none"></div></section><section id="contact" class="max-w-3xl mx-auto px-4 py-16" style="opacity:0;transform:translateY(-51.79020608780326px) scale(0.9303163800278346)"><div class="prose prose-lg max-w-none"></div></section></main><footer class="relative h-40 w-full overflow-hidden mt-12"><svg viewBox="0 0 1440 320" class="absolute bottom-0 left-0 w-full h-full" style="transform:translateY(40px)"><defs><linearGradient id="wave" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#60a5fa"></stop><stop offset="50%" stop-color="#a78bfa"></stop><stop offset="100%" stop-color="#f472b6"></stop></linearGradient></defs><path fill="url(#wave)" fill-opacity="0.7" d="M0,160L60,170C120,180,240,200,360,197.3C480,195,600,169,720,154.7C840,140,960,138,1080,154.7C1200,171,1320,213,1380,234.7L1440,256L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg></footer></div></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{"markdown":"# 网站内容规划\n\n## 网站结构\n\n本项目采用单页面应用（SPA）架构，通过滚动和导航实现页面切换。\n\n### 目录结构\n\n```\nsrc/\n├── app/                    # 应用入口\n│   ├── [locale]/          # 国际化路由\n│   │   └── page.tsx       # 单页面应用主入口\n│   └── layout.tsx         # 布局组件\n├── components/            # 组件目录\n│   ├── sections/         # 页面各部分组件\n│   │   ├── Home.tsx      # 首页部分\n│   │   ├── Vision.tsx    # 使命与愿景部分\n│   │   ├── Projects.tsx  # 创新项目部分\n│   │   ├── Tech.tsx      # 技术理念部分\n│   │   ├── Join.tsx      # 加入我们部分\n│   │   └── Contact.tsx   # 联系我们部分\n│   ├── layout/           # 布局组件\n│   │   ├── Header.tsx    # 顶部导航\n│   │   └── Footer.tsx    # 底部信息\n│   └── ui/               # UI组件\n├── lib/                  # 工具函数\n│   ├── twitter/          # Twitter API集成\n│   ├── i18n/            # 国际化配置\n│   └── google/          # Google Apps Script集成\n├── styles/              # 样式文件\n│   ├── globals.css      # 全局样式\n│   └── animations.css   # 动画样式\n└── types/               # 类型定义\n```\n\n### 页面组成\n\n1. 首页 (Home)\n2. 使命与愿景 (Vision)\n3. 创新项目 (Projects)\n4. 技术理念 (Tech Philosophy)\n5. 加入我们 (Join Us)\n6. 联系我们 (Contact)\n\n### 导航结构\n\n- 顶部固定导航栏\n- 滚动到对应部分\n- 平滑滚动效果\n- 当前部分高亮显示\n\n### URL结构\n\n```\n/                    # 首页\n/#vision            # 使命与愿景\n/#projects          # 创新项目\n/#tech              # 技术理念\n/#join              # 加入我们\n/#contact           # 联系我们\n\n/ja/                # 日语版本\n/ja/#vision        # 日语版本-使命与愿景\n/en/                # 英语版本\n/en/#vision        # 英语版本-使命与愿景\n```\n\n### 技术实现\n\n- 前端框架：Next.js 14\n- 开发语言：TypeScript\n- 样式方案：Tailwind CSS\n- 动画系统：Framer Motion\n- 部署平台：GitHub Pages\n- 国际化：Google Apps Script + next-intl\n- 表单处理：React Hook Form\n- 图片优化：Next.js Image\n- Twitter集成：Twitter API v2\n- 自动化部署：GitHub Actions\n\n### 动画实现\n\n- 页面切换动画：使用Framer Motion的AnimatePresence\n- 滚动动画：使用Framer Motion的useScroll和useTransform\n- 悬停效果：使用Tailwind CSS的transition\n- 加载动画：使用Framer Motion的motion组件\n\n### 性能优化\n\n- 组件懒加载\n- 图片优化\n- 动画性能优化\n- 预加载关键资源\n- 静态生成(SSG)\n- 增量静态再生成(ISR)\n- 资源预加载\n- 代码分割\n\n## 详细内容\n\n### 1. 首页 (Home)\n\n#### 主标题\n\n- Crealize\n- Transforming Imagination into Reality\n\n#### 副标题\n\n- 以 Web3 × 游戏化 × AI 技术，重新定义创意落地的可能性。\n- 我们不只是构想未来，我们正在打造它。\n\n### 2. 使命与愿景 (Vision)\n\n#### 核心信息\n\n- 把创意转化为现实\n- Crealize 是由 \"Creative\" × \"Realize\" 所组成的名字\n\n#### 核心理念\n\n- 「创意若不被实现，只是空谈。」\n- 擅长将点子从 0 执行至 1\n- 经过验证、反复打磨，最终变为可触及的数字产品\n\n#### 技术融合\n\n- Web3\n- 游戏化\n- AI\n- 价值网络\n\n### 3. 创新项目 (Projects)\n\n#### 艺术品交易平台\n\n- 智能合约与第三方 KYC 确保信赖\n- 用赞与关注决定市场价格\n- 评价系统透明开放，由社群共同参与\n\n#### 偶像与创作者股交易平台\n\n- 投票即是支持，影响「市值」\n- 交易活动回馈手续费予偶像\n- 正在新加坡进行合规审查\n\n#### MARS2049：火星殖民 × GameFi\n\n- Build-to-Earn 机制 × 区块链资产\n- Telegram Mini App 全球封测中\n- 未来支持 NFT 与多链互通\n\n#### AI 虚拟影响者\n\n- 与 x.com API 整合，撷取趋势新闻\n- 自动生成评论建议\n- 将可作为企业代言人或社群操盘角色\n\n### 4. 技术理念 (Tech Philosophy)\n\n#### 设计理念\n\n- 去中心化 × 前端驱动\n- 低维运、高稳定、可扩展\n\n#### 实践方式\n\n- 静态前端部署实现零服务器、零维护费\n- 区块链整合，实现去中心化身份验证与资产管理\n- AI 多语翻译系统：使用 Google Apps Script 搭配 GPT\n- 低成本、高自由的开发模型\n\n### 5. 加入我们 (Join Us)\n\n#### 工作环境\n\n- 全球招募中，支持全远程工作\n- 总部设于东京\n- 完全自由的工作环境，专注成果，不看打卡\n\n#### 人才需求\n\n- 工程师\n- 设计师\n- PM\n- 创意人\n- 游戏制作人\n- 法务\n- Web3 领域专才\n\n### 6. 联系我们 (Contact)\n\n#### 公司信息\n\n- 名称：Crealize合同会社（Crealize LLC）\n- 成立时间：2024年10月9日\n- 创办人：Yves CHEN\n- 银行：瑞穗银行（Mizuho Bank）\n\n#### 地址信息\n\n- 地址：东京都涩谷区东1丁目2-9-3\n- Shibuya Bridge B-5（Shibuya Startup Support 提供）\n\n#### 工作地点\n\n- 东京 + 全球远程团队\n- 台湾、新加坡、杜拜、伦敦\n\n#### 联系方式\n\n- 网站底部表单\n- 商业合作\n- 媒体访问\n- 技术咨询\n- 加入团队\n\n## 技术实现要点\n\n### 1. 多语言支持\n\n- 支持语言：日语/英语\n- 实现方式：Google Apps Script + next-intl\n- URL结构：`/[locale]/#section`\n- 切换方式：顶部导航栏语言切换\n- 内容管理：Google表单收集翻译内容\n- 自动更新：定时触发Apps Script更新\n\n### 2. 响应式设计\n\n- 使用Tailwind CSS实现\n- 断点设计：\n  - 移动端：\u003c 640px\n  - 平板：640px - 1024px\n  - 桌面：\u003e 1024px\n- 布局适配：\n  - 移动端：单列布局\n  - 平板：双列布局\n  - 桌面：多列布局\n\n### 3. 动画效果\n\n- 页面切换：Framer Motion AnimatePresence\n- 滚动动画：Framer Motion useScroll\n- 悬停效果：Tailwind CSS transition\n- 加载动画：Framer Motion motion组件\n\n### 4. 表单处理\n\n- 使用React Hook Form\n- 表单验证\n- 错误提示\n- 提交状态管理\n- 自动翻译\n\n### 5. Twitter集成\n\n- Twitter API v2\n- 推文列表展示\n- 推文交互\n- 推文搜索\n- 推文缓存\n- 定时更新\n\n### 6. 图片优化\n\n- Next.js Image组件\n- 自动格式转换\n- 响应式图片\n- 懒加载\n- 占位图\n\n### 7. SEO优化\n\n- 静态生成(SSG)\n- 增量静态再生成(ISR)\n- Meta标签优化\n- 结构化数据\n- 多语言SEO\n- 性能优化\n"},"__N_SSG":true},"page":"/","query":{},"buildId":"J-55_imQriAWEJoPqE-Ez","isFallback":false,"gsp":true,"scriptLoader":[]}</script></body></html>
